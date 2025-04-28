@@ -13,5 +13,6 @@ struct JWordDevApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: JWordModel.self)
     }
 }

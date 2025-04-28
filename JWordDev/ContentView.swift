@@ -13,6 +13,7 @@ struct ContentView: View {
         //ToolBarView()
         JWordView()
     }
+        
 }
 
 #Preview {

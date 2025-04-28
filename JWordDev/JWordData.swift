@@ -16,7 +16,15 @@ struct JWordData: View {
 
 @Model
 class JWordModel {
+    var kanji: String
+    var yomigana: String
+    var meaning: String
     
+    init(kanji: String, yomigana: String, meaning: String) {
+        self.kanji = kanji
+        self.yomigana = yomigana
+        self.meaning = meaning
+    }
 }
 
 #Preview {
