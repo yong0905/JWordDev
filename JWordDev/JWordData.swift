@@ -26,7 +26,3 @@ class JWordModel {
         self.meaning = meaning
     }
 }
-
-#Preview {
-    JWordData()
-}
