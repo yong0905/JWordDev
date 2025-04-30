@@ -6,13 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
 
 struct ContentView: View {
+    @Environment(\.modelContext) private var modelContext
+    @Query private var words: [JWordModel]
+    
+    
+    
     var body: some View {
-        NavigationBarView()
-        //ToolBarView()
-        JWordView()
+
     }
         
 }

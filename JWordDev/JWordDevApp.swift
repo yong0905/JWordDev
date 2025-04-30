@@ -13,6 +13,6 @@ struct JWordDevApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: JWordModel.self)
+        .modelContainer(for: JWordModel.self)   //앱 전체에서 일본어 단어 모델을 사용할 수 있게 함
     }
 }

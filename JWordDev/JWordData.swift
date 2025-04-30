@@ -15,7 +15,7 @@ struct JWordData: View {
 }
 
 @Model
-class JWordModel {
+class JWordModel {      //단어 모델 정의
     var kanji: String
     var yomigana: String
     var meaning: String
